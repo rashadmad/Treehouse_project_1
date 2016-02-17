@@ -9,13 +9,13 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #b3b3b3;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: black;
 }
 a:hover {
   color: #6633ff;
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #b3b3b3;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -76,16 +76,18 @@ header .profile-image:hover {
 
 
 .tag {
-  background-color: #efefef;
-  color: black;
-  padding: 10px;
-  border-radius: 5px;
+  background-color: rgba(140, 140, 140, 0.5);
+  color: white;
+  padding: 5px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
   display: table;
   margin: 10px auto;
 }
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: grey;
+  color: white;
 }
 .card {
   margin: 30px;
